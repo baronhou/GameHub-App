@@ -27,24 +27,16 @@
 		DFD2F7222E83849D002D0A1D /* GameHub App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameHub App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD2F7342E83849E002D0A1D /* GameHub AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GameHub AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD2F73E2E83849E002D0A1D /* GameHub AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GameHub AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD2F8042E8A1F39002D0A1D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFD2F8052E8A1F48002D0A1D /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		DFD2F8062E8A1F5F002D0A1D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DFD2F8072E8A1F6A002D0A1D /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		DFD2F8082E8A1F82002D0A1D /* SupportingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		DFD2F77C2E89CA30002D0A1D /* Exceptions for "GameHub App" folder in "GameHub App" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"GameHub-App-Info.plist",
-			);
-			target = DFD2F7212E83849D002D0A1D /* GameHub App */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DFD2F7242E83849D002D0A1D /* GameHub App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				DFD2F77C2E89CA30002D0A1D /* Exceptions for "GameHub App" folder in "GameHub App" target */,
-			);
 			path = "GameHub App";
 			sourceTree = "<group>";
 		};
@@ -88,6 +80,7 @@
 		DFD2F7192E83849D002D0A1D = {
 			isa = PBXGroup;
 			children = (
+				DFD2F8032E8A1F2A002D0A1D /* Models */,
 				DFD2F7242E83849D002D0A1D /* GameHub App */,
 				DFD2F7372E83849E002D0A1D /* GameHub AppTests */,
 				DFD2F7412E83849E002D0A1D /* GameHub AppUITests */,
@@ -103,6 +96,18 @@
 				DFD2F73E2E83849E002D0A1D /* GameHub AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD2F8032E8A1F2A002D0A1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2F8042E8A1F39002D0A1D /* User.swift */,
+				DFD2F8052E8A1F48002D0A1D /* GameStore.swift */,
+				DFD2F8062E8A1F5F002D0A1D /* Event.swift */,
+				DFD2F8082E8A1F82002D0A1D /* SupportingModels.swift */,
+				DFD2F8072E8A1F6A002D0A1D /* Club.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
